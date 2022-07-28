@@ -1,0 +1,42 @@
+.tasbiy{
+    width: 250px;
+    height: 270px;
+    background-color: coral;
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    border-radius: 20%;
+    border: 1px solid chocolate;
+}
+.ekran{
+    width: 50%;
+    position: absolute;
+    top: 10%;
+    left: 25%;
+    height: 40px;
+    caret-color: white;
+    border-radius: 10%;
+    border: 1px solid floralwhite;
+    text-align: center;
+    font-size: 30px;
+}
+.tugma{
+    position: absolute;
+    top: 40%;
+    left: 38%;
+    width:53px;
+    height: 50px;
+    border: 1px solid coral;
+    border-radius: 50%;
+    background-color: gray;
+}
+.ikkinchi{
+    background-color: burlywood;
+    position: absolute;
+    top: 70%;
+    left:42%;
+    width:35px;
+    height: 33px;
+    border: 1px solid coral;
+    border-radius: 50%;
+}

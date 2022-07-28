@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tasbiy sanovchi qurilma</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+<div class="tasbiy">
+    <input type="text" class="ekran" value="0">
+    <button class="tugma"></button>
+    <button class="ikkinchi"></button>
+</div>
+
+<script tupe="text/javascript">
+    document.querySelector('.tugma').addEventListener('click',function () {
+        var ekran = document.querySelector('.ekran');
+        // console.log(parseInt(ekran.value + 1) );
+        ekran.value = parseInt(ekran.value)+1;
+
+    });
+    document.querySelector('.ikkinchi').addEventListener('click',function () {
+        document.querySelector('.ekran').value = 0;
+
+    });
+</script>
+
+
+
+</body>
+</html>
